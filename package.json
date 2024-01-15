@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
-    "build": "webpack"
+    "build": "webpack",
+    "prod": "node public/final.js"
   },
   "author": "",
   "type": "commonjs",
@@ -17,11 +18,12 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.3",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "nodemon": "^3.0.2"
   }
 }
